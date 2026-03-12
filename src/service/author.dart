@@ -40,7 +40,7 @@ class AuthorService {
       return;
     }
     for (final a in _authors) {
-      a.toString();
+      print('${a.toString()}');
     }
   }
 }
